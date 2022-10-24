@@ -10,7 +10,6 @@ const BlogList = ({ blogs, title }) => {
           <h2> { blog.title } </h2>
           <p> Writing by { blog.author } </p>
         </div>
-
       ))}
     </div>
   );
